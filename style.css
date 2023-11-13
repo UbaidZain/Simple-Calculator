@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.calculator {
+  width: 30%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 4rem;
+  border-radius: 10px;
+}
+.display {
+  height: 20vh;
+  padding: 0.5rem;
+  line-height: 15vh;
+  font-size: 2rem;
+  background-color: aliceblue;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(252, 234, 212);
+}
+.button {
+  appearance: none;
+  height: 60px;
+  border: none;
+  font-size: 2rem;
+  transition: 0.2s ease;
+  background-color: rgb(252, 234, 212);
+}
+.button:hover {
+  background-color: rgb(250, 217, 177);
+}
